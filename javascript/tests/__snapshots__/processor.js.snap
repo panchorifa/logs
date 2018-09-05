@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`log processor top resources with more than 10 logs 1`] = `
+Array [
+  Object {
+    "/images/ksclogosmall.gif": Object {
+      "bytes": 10905,
+      "occurrences": 3,
+    },
+  },
+  Object {
+    "/images/ksclogosmall4.gif": Object {
+      "bytes": 10905,
+      "occurrences": 3,
+    },
+  },
+  Object {
+    "/images/ksclogosmall5.gif": Object {
+      "bytes": 10901,
+      "occurrences": 3,
+    },
+  },
+  Object {
+    "/images/opf-logo.gif": Object {
+      "bytes": 65022,
+      "occurrences": 2,
+    },
+  },
+  Object {
+    "/images/ksclogosmall2.gif": Object {
+      "bytes": 3635,
+      "occurrences": 1,
+    },
+  },
+  Object {
+    "/images/ksclogosmall3.gif": Object {
+      "bytes": 3635,
+      "occurrences": 1,
+    },
+  },
+  Object {
+    "/images/ksclogosmall34.gif": Object {
+      "bytes": 3635,
+      "occurrences": 1,
+    },
+  },
+  Object {
+    "/images/ksclogosmall35.gif": Object {
+      "bytes": 3635,
+      "occurrences": 1,
+    },
+  },
+  Object {
+    "/images/ksclogosmall8.gif": Object {
+      "bytes": 3635,
+      "occurrences": 1,
+    },
+  },
+  Object {
+    "/images/ksclogosmall7.gif": Object {
+      "bytes": 3633,
+      "occurrences": 1,
+    },
+  },
+]
+`;
+
+exports[`log processor top resources with only a few logs 1`] = `
+Array [
+  Object {
+    "/images/ksclogosmall.gif": Object {
+      "bytes": 10905,
+      "occurrences": 3,
+    },
+  },
+  Object {
+    "/images/opf-logo.gif": Object {
+      "bytes": 65022,
+      "occurrences": 2,
+    },
+  },
+]
+`;

@@ -1,0 +1,11 @@
+*.log
+.cache
+*.retry
+.idea/
+*.pem
+*.pyc
+**/__pycache__/
+**/test-files/output
+*.tmp
+vendor/
+.pytest_cache
